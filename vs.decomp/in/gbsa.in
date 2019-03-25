@@ -1,0 +1,9 @@
+Input file for running PB decomp analysis
+&general
+
+	endframe=1, keep_files=0, 
+/
+&gb
+
+	igb=2, saltcon=0.100,
+/

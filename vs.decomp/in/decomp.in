@@ -1,0 +1,12 @@
+Input file for running GB decomposition
+&general
+	keep_files=1, 
+/
+&gb
+
+	igb=2, saltcon=0.100,
+/
+&decomp
+
+	idecomp=2, dec_verbose=2
+/

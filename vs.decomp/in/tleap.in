@@ -1,0 +1,9 @@
+source leaprc.ff12SB
+source leaprc.gaff
+loadamberparams frcmod
+LIG = loadmol2 lig_amber.mol2
+REC = loadpdb ../../../recs/3SOVA1/3SOVA1_amber.pdb
+COM = combine {LIG REC}
+saveamberparm LIG lig.top lig.crd
+saveamberparm COM com.top com.crd
+quit
